@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="B1" Collapsed="true">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAACAgAAAAAAAAAAA=</HashCode>
+      <FileName>B1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B2" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>B1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D1" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAACIAAAAAAAAAAA=</HashCode>
+      <FileName>B1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D2" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="B1" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="1.312" />
+        <Point X="2" Y="1.75" />
+        <Point X="1" Y="1.75" />
+        <Point X="1" Y="3.125" />
+        <Point X="2" Y="3.125" />
+        <Point X="2" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="D1">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0" Y="0.393" Height="0.182" Width="0.5" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>B1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D3" Collapsed="true">
+    <Position X="1.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="D2">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.079" Y="0.331" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>B1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
